@@ -14,6 +14,9 @@ HTML
 * [Forms (cheatsheet)](https://www.codecademy.com/learn/learn-html/modules/learn-html-forms/cheatsheet)
 * [Semantic HTML (cheatsheet)](https://www.codecademy.com/learn/learn-html/modules/learn-semantic-html/cheatsheet)
 * [Semantic HTML (article)](https://www.internetingishard.com/html-and-css/semantic-html/)
+  * In this article, you will learn the rationale behind semantic HTML. This is helpful if you would like to understand the nuances of how a front-end developer effectively communicates their intentions by the way they structure the HTML skeleton. This understated skill of explicitly labeling your HTML markup can save you and your team countless hours in debugging and redesigning HTML.
+* [Writing HTML with Accessibility in Mind (article)](https://medium.com/alistapart/writing-html-with-accessibility-in-mind-a62026493412)
+  * In this article, you will learn about how you can incorporate web accessibility in your HTML code. This is helpful if you’d like to understand the best HTML practices towards making your website as accessible to as broad of an audience as possible. 
 * [Block-level elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements)
 * [Inline elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Elements)
 * [HTML Validator](https://validator.w3.org/)
