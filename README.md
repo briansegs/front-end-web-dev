@@ -38,6 +38,8 @@ CSS
 * [All available Google Web Fonts](https://fonts.google.com/)
 * [Udacity Frontend Nanodegree Style Guide](https://udacity.github.io/frontend-nanodegree-styleguide/css.html#units/)
 * [grid visualizer and generator](https://cssgrid-generator.netlify.com/)
+* [Chrome DevTools (article)](https://developers.google.com/web/tools/chrome-devtools)
+  * In this resource, you will learn how to use Chrome DevTools. This is helpful if you would like to add DevTools to your web development toolbox to monitor, debug or change a website’s design and behavior using the Chrome web browser.
 
 JavaScript
 
