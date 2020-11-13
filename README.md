@@ -40,6 +40,8 @@ CSS
 * [grid visualizer and generator](https://cssgrid-generator.netlify.com/)
 * [Chrome DevTools (article)](https://developers.google.com/web/tools/chrome-devtools)
   * In this resource, you will learn how to use Chrome DevTools. This is helpful if you would like to add DevTools to your web development toolbox to monitor, debug or change a website’s design and behavior using the Chrome web browser.
+* [Simulate Different Screen Sizes with Device Mode in Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/device-mode)
+  * In this article, you will learn how to simulate different screen sizes with device mode in Chrome DevTools in order to approximate how your page looks and performs on different devices. This is helpful if you want to ensure that the components of your page would be readable on mobile devices. There’s also value in seeing how your website would load on a device with a weak or non-existent connection to the network.
 
 JavaScript
 
