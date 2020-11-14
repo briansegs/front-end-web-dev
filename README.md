@@ -32,6 +32,10 @@ CSS
 * [Typography (cheatsheet)](https://www.codecademy.com/learn/learn-css/modules/learn-css-typography/cheatsheet)
 * [Layout with Flexbox (cheatsheet)](https://www.codecademy.com/learn/learn-css/modules/layout-with-flexbox/cheatsheet)
 * [Grid (cheatsheet)](https://www.codecademy.com/learn/learn-css/modules/learn-css-grid/cheatsheet)
+* [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+  * In this resource, you will learn about all the aspects that encapsulate the CSS Grid Layout. This is helpful if you’d like to understand all the settings, properties and terminologies that encompass grid parent containers and grid child elements.
+* [Things I’ve Learned About CSS Grid Layout](https://css-tricks.com/things-ive-learned-css-grid-layout/)
+  * In this article, you will learn key tips for when you are working with CSS Grid Layouts. This is helpful if you’d like a candid assessment of how to best work with grid from an accomplished professional in the field.
 * [Semantic CSS (article)](https://maintainablecss.com/chapters/semantics/)
   * In this article, you will learn to create semantic CSS class names. This is helpful if you would like to understand the nuances of how a front-end developer effectively communicates his or her intentions by the way he or she structures the CSS elements. This understated skill of explicitly labelling your CSS elements can save you and your team countless hours in debugging and redesigning CSS elements.
 * [Documentation for Google Web Fonts](https://developers.google.com/fonts/docs/getting_started)
