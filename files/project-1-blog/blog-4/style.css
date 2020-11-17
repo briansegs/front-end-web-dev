@@ -40,9 +40,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-
-
 }
 
 #nav-links {
@@ -72,25 +69,23 @@ body {
     -webkit-transform:rotate(-90deg);
 }
 
-#contact {
-    grid-area: 1 / 6 / span 1 / span 1;
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: larger;
+}
+
+#contact {
+    grid-area: 1 / 6 / span 1 / span 1;
 }
 
 #blog {
     grid-area: 6 / 1 / span 1 / span 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #projects {
     grid-area: 6 / 6 / span 1 / span 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #title {
