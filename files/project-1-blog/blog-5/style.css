@@ -21,11 +21,10 @@ body {
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template: repeat(6, 1fr) / repeat(6, 1fr);
+    grid-template: repeat(12, 1fr) / repeat(12, 1fr);
 }
 
 #logo {
-
     grid-area: 1 / 2 / span 1 / span 2;
     display: flex;
     justify-content: flex-start;
@@ -34,7 +33,7 @@ body {
 }
 
 #nav-items {
-    grid-area: 6 / 3 / span 1 / span 2;
+    grid-area: 12 / 5 / span 1 / span 4;
     display: flex;
     justify-content: space-evenly;
 }
@@ -42,88 +41,60 @@ body {
 #nav-links {
     display: flex;
     list-style-type: none;
+    font-size: medium;
 }
 
 .nav-item {
     margin: auto 20px;
-    font-size: medium;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
 }
 
 #menu {
-    grid-area: 1 / 5 / span 1 / span 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 100px;
-}
-
-#text {
-    grid-area: 6 / 1 / span 1 / span 1;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-#text span {
-    padding-right: 20px;
-    font-size: larger;
-    -webkit-transform:rotate(90deg);
+    grid-area: 1 / 11 / span 1 / span 1;
+    font-size: 80px;
 }
 
 #contact {
-    grid-area: 1 / 6 / span 3 / span 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    grid-area: 1 / 12 / span 6 / span 1;
 }
 
 #contact span {
-    padding-right: 20px;
-    font-size: larger;
-    -webkit-transform:rotate(-90deg);
+    -webkit-transform:rotate(90deg);
 }
 
 #blog {
-    grid-area: 1 / 1 / span 3 / span 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    grid-area: 1 / 1 / span 6 / span 1;
 }
 
 #blog span {
-    padding-right: 20px;
-    font-size: larger;
     -webkit-transform:rotate(-90deg);
 }
 
 #projects {
-    grid-area: 4 / 1 / span 3 / span 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    grid-area: 7 / 1 / span 6 / span 1;
 }
 
 #projects span {
-    padding-right: 20px;
-    font-size: larger;
     -webkit-transform:rotate(-90deg);
 }
 
 #about-me {
-    grid-area: 4 / 6 / span 3 / span 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    grid-area: 7 / 12 / span 6 / span 1;
 }
 
 #about-me span {
-    padding-right: 20px;
-    font-size: larger;
-    -webkit-transform:rotate(-90deg);
+    white-space: nowrap;
+    -webkit-transform:rotate(90deg);
 }
 
 #title {
-    grid-area: 3 / 2 / span 1 / span 2;
+    grid-area: 5 / 2 / span 2 / span 6;
 }
 
 #title h2 {
@@ -132,11 +103,9 @@ body {
 }
 
 #button1 {
-    grid-area: 4 / 2 / span 1 / span 1;
+    grid-area: 7 / 2 / span 1 / span 1;
     display: flex;
     align-items: flex-start;
-
-
 }
 
 #button2 {
@@ -144,9 +113,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-#button1 button, #button2 button {
+#button1 button {
     font-size: larger;
 }
