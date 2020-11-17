@@ -1,11 +1,27 @@
 
 
+/* .box {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    border: 2px dodgerblue solid;
+} */
 
-
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 #grid {
-    height: 98vh;
-    width: 98vw;
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 100vh;
+    width: 100vw;
     display: grid;
     grid-template: repeat(6, 1fr) / repeat(6, 1fr);
 }
@@ -18,8 +34,6 @@
     align-items: center;
     font-size: xx-large;
     padding-left: 20px;
-
-
 }
 
 #nav-items {
@@ -51,10 +65,33 @@
     font-size: medium;
 }
 
-/* .box {
-    background-color: beige;
-    color: black;
-    border-radius: 5px;
-    border: 2px dodgerblue solid;
-} */
+#text {
+    grid-area: 2 / 6 / span 4 / span 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#text span {
+    font-size: large;
+    -webkit-transform:rotate(90deg);
+}
+
+#title {
+    grid-area: 3 / 4 / span 1 / span 2;
+}
+
+#title h2 {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#button {
+    grid-area: 4 / 4 / span 1 / span 1;
+    display: flex;
+    align-items: flex-start;
+}
+
+#button button {
+    font-size: larger;
+}
