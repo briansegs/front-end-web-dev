@@ -1,0 +1,152 @@
+/* .box {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    border: 2px dodgerblue solid;
+} */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#grid {
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template: repeat(6, 1fr) / repeat(6, 1fr);
+}
+
+#logo {
+
+    grid-area: 1 / 2 / span 1 / span 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: xx-large;
+}
+
+#nav-items {
+    grid-area: 6 / 3 / span 1 / span 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin: auto 20px;
+    font-size: medium;
+}
+
+#menu {
+    grid-area: 1 / 5 / span 1 / span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+#text {
+    grid-area: 6 / 1 / span 1 / span 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#text span {
+    padding-right: 20px;
+    font-size: larger;
+    -webkit-transform:rotate(90deg);
+}
+
+#contact {
+    grid-area: 1 / 6 / span 3 / span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact span {
+    padding-right: 20px;
+    font-size: larger;
+    -webkit-transform:rotate(-90deg);
+}
+
+#blog {
+    grid-area: 1 / 1 / span 3 / span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blog span {
+    padding-right: 20px;
+    font-size: larger;
+    -webkit-transform:rotate(-90deg);
+}
+
+#projects {
+    grid-area: 4 / 1 / span 3 / span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects span {
+    padding-right: 20px;
+    font-size: larger;
+    -webkit-transform:rotate(-90deg);
+}
+
+#about-me {
+    grid-area: 4 / 6 / span 3 / span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-me span {
+    padding-right: 20px;
+    font-size: larger;
+    -webkit-transform:rotate(-90deg);
+}
+
+#title {
+    grid-area: 3 / 2 / span 1 / span 2;
+}
+
+#title h2 {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#button1 {
+    grid-area: 4 / 2 / span 1 / span 1;
+    display: flex;
+    align-items: flex-start;
+
+
+}
+
+#button2 {
+    grid-area: 6 / 3 / span 1 / span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#button1 button, #button2 button {
+    font-size: larger;
+}
