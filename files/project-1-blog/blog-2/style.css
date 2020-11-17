@@ -23,33 +23,33 @@ body {
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template: repeat(6, 1fr) / repeat(6, 1fr);
+    grid-template: repeat(12, 1fr) / repeat(12, 1fr);
 }
 
 #logo {
 
-    grid-area: 1 / 1 / span 1 / span 2;
+    grid-area: 1 / 1 / span 1 / span 3;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     font-size: xx-large;
-    padding-left: 20px;
+    padding: 20px;
 }
 
 #nav-items {
 
-    grid-area: 1 / 4 / span 1 / span 2;
+    grid-area: 1 / 7 / span 1 / span 5;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #menu {
-    grid-area: 1 / 6 / span 1 / span 1;
+    grid-area: 1 / 12 / span 1 / span 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 100px;
+    font-size: 80px;
 }
 
 #nav-links {
@@ -67,7 +67,7 @@ body {
 }
 
 #text {
-    grid-area: 2 / 6 / span 4 / span 1;
+    grid-area: 2 / 12 / span 10 / span 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,11 +75,12 @@ body {
 
 #text span {
     font-size: large;
+    white-space: nowrap;
     -webkit-transform:rotate(90deg);
 }
 
 #title {
-    grid-area: 3 / 4 / span 1 / span 2;
+    grid-area: 4 / 7 / span 2 / span 5;
 }
 
 #title h2 {
@@ -88,7 +89,7 @@ body {
 }
 
 #button {
-    grid-area: 4 / 4 / span 1 / span 1;
+    grid-area: 6 / 7 / span 1 / span 1;
     display: flex;
     align-items: flex-start;
 }
