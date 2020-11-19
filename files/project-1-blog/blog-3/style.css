@@ -36,7 +36,7 @@ body {
 
 #nav-items {
 
-    grid-area: 7 / 11 / span 6 / span 2;
+    grid-area: 7 / 11 / span 4 / span 2;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -54,7 +54,6 @@ body {
 #nav-links {
     display: inline-flex;
     flex-direction: column;
-    justify-content: space-between;
     text-align: center;
     list-style-type: none;
     margin: 0;
