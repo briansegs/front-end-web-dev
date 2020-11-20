@@ -1,9 +1,9 @@
-/* .box {
+.box {
     background-color: beige;
     color: black;
     border-radius: 5px;
     border: 2px dodgerblue solid;
-} */
+}
 
 html,
 body {
@@ -16,7 +16,7 @@ body {
     background-repeat: no-repeat;
 }
 
-#grid {
+.grid {
     background-color: rgba(255, 255, 255, 0.75);
     height: 100vh;
     width: 100vw;
@@ -94,4 +94,13 @@ body {
 
 #button button {
     font-size: larger;
+}
+
+
+
+#blog-title {
+    grid-area: 2 / 4 / span 2 / span 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
