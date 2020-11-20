@@ -40,7 +40,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
 #menu {
@@ -97,9 +96,15 @@ body {
 }
 
 
-
 #blog-title {
     grid-area: 2 / 4 / span 2 / span 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blog-card {
+    grid-area: 5 / 3 / span 5 / span 8;
     display: flex;
     justify-content: center;
     align-items: center;
