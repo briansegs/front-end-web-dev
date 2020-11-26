@@ -9,8 +9,7 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<div class="background">
-
+		<section class="background">
 			<!-- navigation bar -->
 			<nav class="navbar-fixed transparent">
 				<div class="container">
@@ -24,120 +23,135 @@
 			</nav>
 
 			<!-- Landing frame -->
-			<div class="landing-grid">
-				<div class="text-wrapper border">
+			<article class="landing-grid">
+				<!-- Landing page text -->
+				<section class="text-wrapper border">
 					<h1 class="center-align white-text">Page Title</h1>
 					<div class="center-align white-text">
 						<h5 class="light">A modern responsive front-end framework based on Material Design</h5>
 					</div>
-				</div>
+				</section>
 
-				<div class="landing-button">
+				<!-- Landing page button -->
+				<section class="landing-button">
 					<div class="center-align">
 						<a href="#" class="btn-large">Button</a>
 					</div>
-				</div>
-			</div>
-
-		</div>
+				</section>
+			</article>
+		</section>
 
 		<!-- Blog frame -->
-		<div class="blog-wrapper">
-			<div class="blog-title">
+		<article class="blog-wrapper">
+			<!-- Blog title -->
+			<section class="blog-title">
 				<h1 class="center-align white-text">Blog</h1>
-			</div>
+			</section>
 
-			<div class="card-wrap">
+			<!-- Blog card -->
+			<section class="card-wrap">
 				<div class="card">
-					<div class="card-image">
-						<img src="background3.jpg">
-						<span class="card-title">Card Title</span>
-					</div>
-					<div class="card-content">
+					<!-- Card image -->
+					<figure class="card-image">
+						<img src="background3.jpg" alt="Blog image">
+						<figcaption class="card-title">Card Title</figcaption>
+					</figure>
+					<!-- Card text content -->
+					<section class="card-content">
 						<p class="gray-text">
 							I am a very simple card. I am good at containing small bits of information.
 							I am convenient because I require little markup to use effectively.
 						</p>
-					</div>
-					<div class="card-action">
+					</section>
+					<!-- Card link -->
+					<section class="card-action">
 						<a href="#">This is a link</a>
-					</div>
+					</section>
 				</div>
-			</div>
+			</section>
 
-			<div class="blog-info">
-				<div class="avatar-img">
-					<img class="responsive-img circle" src="0.jpg">
-				</div>
+			<!-- Blog info -->
+			<section class="blog-info">
+				<!-- Brian Avatar -->
+				<figure class="avatar-img">
+					<img class="responsive-img circle" src="0.jpg" alt="Brian avatar">
+				</figure>
+				<!-- Info text -->
 				<h4 class="left-align white-text">About blog</h4>
-				<div class="row left-align white-text">
-					<h6 class="col s12 light">
+				<section class="left-align white-text">
+					<p class="light">
 						A modern responsive front-end framework based on Material Design
 						A modern responsive front-end framework based on Material Design
-					</h6>
-				</div>
+					</p>
+				</section>
 				<br>
-				<div class="row left-align">
+				<!-- Blog button -->
+				<section class="left-align">
 					<a href="#" class="btn-large">Button</a>
-				</div>
-			</div>
-		</div>
+				</section>
+			</section>
+		</article>
 
 		<!-- Info frame -->
-		<div class="">
-			<div class="info-wrapper">
-				<div class="info-title">
-					<h1>Info</h1>
-				</div>
+		<article class="info-wrapper">
+			<!-- Info Title -->
+			<section class="info-title">
+				<h1>Info</h1>
+			</section>
 
-				<div class="info-subjects side-border">
-					<h4>3D Art</h4>
-					<p>
-						<a href="#">My personal portfolio site</a>
-					</p>
-					<br>
-
-					<h4>Coding Projects</h4>
-					<p>
-						<a href="#">My GitHub Account</a>
-					</p>
-					<br>
-				</div>
-			</div>
-		</div>
+			<!-- Info Content -->
+			<section class="info-subjects side-border">
+				<!-- Info title -->
+				<h4>3D Art</h4>
+				<!-- Info Link -->
+				<a href="#">My personal portfolio site</a>
+				<br>
+				<br>
+				<!-- Info title -->
+				<h4>Coding Projects</h4>
+				<!-- Info Link -->
+				<a href="#">My GitHub Account</a>
+			</section>
+		</article>
 
 		<!--  Footer -->
 		<footer class="page-footer blue ">
-			<div class="subscribe">
+			<!-- Subscribe Section -->
+			<section class="subscribe">
+				<!-- Subscribe Title -->
 				<h5 class="text-white">Subscribe</h5>
-
+				<!-- Subscribe Discription -->
 				<h6>Sign up with your email to get new posts.</h6>
-
+				<!-- Subscribe Input Field -->
 				<div class="subscribe-input">
 					<input type="text" id="fname" name="firstname" placeholder="Email Address" class="white-text">
 				</div>
+				<!-- Submit Button -->
 				<div class="subscribe-btn">
 					<a href="#" class="btn-small">Submit</a>
 				</div>
 				<br>
+			</section>
 
-			</div>
-
-			<div class="social">
+			<!-- Social Section -->
+			<section class="social">
+				<!-- Social Discription -->
 				<h6>Follow me on Social Media for more.</h6>
+				<!-- Social Icons -->
 				<div class="icons">
-					<a href="#"><i class="fa fa-facebook white-text"></i></a>
-					<a href="#"><i class="fa fa-twitter white-text"></i></a>
-					<a href="#"><i class="fa fa-linkedin white-text"></i></a>
-					<a href="#"><i class="fa fa-instagram white-text"></i></a>
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
 				</div>
-			</div>
+			</section>
 
-			<div class="footer-copyright">
-			  <div class="container center-align">
+			<!-- Copyright Information -->
+			<section class="footer-copyright">
+			  <p class="container center-align">
 				Copyright © 2020  |  Brian Segers  |  All rights reserved
-			  </div>
-			</div>
+			  </p>
+			</section>
 		</footer>
 	</body>
 </html>
