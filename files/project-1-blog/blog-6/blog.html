@@ -6,11 +6,14 @@
 		<title>Blog</title>
 		<link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/openmoji/272/man-technologist-medium-dark-skin-tone_1f468-1f3fe-200d-1f4bb.png" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style-blog.css" />
+        <link rel="stylesheet" href="style-footer.css" />
+        <link rel="stylesheet" href="style-navbar.css" />
 	</head>
 	<body>
 
-        <div class="header">
+        <article class="header">
             <!-- navigation bar -->
             <nav class="navbar-fixed transparent">
                 <div class="container">
@@ -23,28 +26,36 @@
                 </div>
             </nav>
 
-            <div class="header-items">
+            <!-- Header Items -->
+            <section class="header-items">
+                <!-- Header Title -->
                 <h1 class="blue-text center-align">Page Title</h1>
+                <!-- Header Description  -->
                 <div class="white-text">
                     <h5 class="light center-align">A modern responsive front-end framework based on Material Design</h5>
                 </div>
+                <!-- Social Icons -->
                 <div class="icons-wrap">
                     <a href="#"><i class="fa fa-facebook"></i></a>
                     <a href="#"><i class="fa fa-twitter"></i></a>
                     <a href="#"><i class="fa fa-linkedin"></i></a>
                     <a href="#"><i class="fa fa-instagram"></i></a>
                 </div>
-            </div>
-            <!-- <div class="parallax">
+            </section>
+        </article>
 
-            </div> -->
-        </div>
-
-        <div class="article">
-            <h2>Article title</h2>
+        <!-- Article Header -->
+        <section class="article-header center-align">
             <div class="date">
                 11/25/2020
             </div>
+            <h2>Article title</h2>
+            <figure class="center-align">
+                <img src="background3.jpg">
+            </figure>
+        </section>
+        <!-- Article Contents -->
+        <article class="article">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Nunc at leo non dolor faucibus pharetra at et mi.
@@ -60,11 +71,14 @@
                 Aenean feugiat varius justo id accumsan. Donec et commodo diam. Nulla facilisi.
                 Nullam dignissim a lectus vitae convallis.
             </p>
+
+            <!-- Blockquote -->
             <blockquote>
                 <em>Aenean feugiat varius justo id accumsan. Donec et commodo diam.</em>
                 <br><br>
                 <em>-Brian Segers</em>
             </blockquote>
+
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Nunc at leo non dolor faucibus pharetra at et mi.
@@ -80,6 +94,8 @@
                 Aenean feugiat varius justo id accumsan. Donec et commodo diam. Nulla facilisi.
                 Nullam dignissim a lectus vitae convallis.
             </p>
+
+            <!-- Image -->
             <figure class="center-align">
                 <img src="background1.jpg">
                 <figcaption>
@@ -102,8 +118,11 @@
                 Aenean feugiat varius justo id accumsan. Donec et commodo diam. Nulla facilisi.
                 Nullam dignissim a lectus vitae convallis.
             </p>
+
             <br><br>
-            <div class="sig">
+
+            <!-- Signature -->
+            <section class="sig side-border">
                 <figure class="avatar-img">
 					<img class="responsive-img circle" src="0.jpg" alt="Brian avatar">
                 <figcaption>
@@ -112,11 +131,8 @@
                     </p>
                 </figcaption>
                 </figure>
-            </div>
-
-
-
-        </div>
+            </section>
+        </article>
         <br>
         <br>
 
