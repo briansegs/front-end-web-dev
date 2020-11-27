@@ -24,6 +24,18 @@
   color: rgb(58, 57, 68) !important;
 }
 
+.gray-text-dark {
+  color: rgb(50, 50, 51) !important;
+}
+
+.gray-text-mid {
+  color: rgb(124, 124, 124) !important;
+}
+
+.gray-text-light {
+  color: #b3b3b1 !important;
+}
+
 .black-text {
   color: #000000 !important;
 }

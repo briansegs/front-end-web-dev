@@ -3,7 +3,7 @@
  */
 
 .header {
-opacity: .9;
+opacity: 1;
 background-image: url("background4.jpg");
 background-color: white;
 background-attachment: fixed;
@@ -43,7 +43,7 @@ width: 90%;
 text-align: center;
 margin-top: 1rem;
 margin-bottom: 1rem;
-
+color: #b3b3b1 ;
 }
 
 .article-header h2 {
@@ -66,11 +66,17 @@ width: 100%;
 margin: 0 auto;
 max-width: 1280px;
 width: 70%;
+padding-bottom: 3rem;
+border-bottom: 1px solid lightgray;
 }
 
 .article figure img {
 max-width: 100%;
 height: auto;
+}
+
+.article figure figcaption p {
+    font-size: medium;
 }
 
 .article p {
@@ -79,4 +85,8 @@ font-size: large;
 
 .sig .avatar-img img {
 width: 20%;
+}
+
+.sig figure figcaption p{
+    font-size: medium;
 }
