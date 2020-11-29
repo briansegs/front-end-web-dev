@@ -6,9 +6,17 @@ nav .brand-logo {
   font-size: 1rem;
 }
 
+.brand-logo img {
+  max-width: 32px;
+  width: 14%;
+  transform: scaleX(-1);
+}
+
 @media only screen and (min-width: 317px) {
-  nav .brand-logo {
-    font-size: 2.1rem;
+  .brand-logo img {
+    max-width: 60px;
+    min-width: 50px;
+    width: 15%;
   }
 }
 
