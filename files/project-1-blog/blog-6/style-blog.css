@@ -84,7 +84,9 @@ font-size: large;
 }
 
 .sig .avatar-img img {
-width: 20%;
+max-width: 100px;
+min-width: 60px;
+width: 15%;
 }
 
 .sig figure figcaption p{
