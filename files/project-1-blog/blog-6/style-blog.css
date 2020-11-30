@@ -6,7 +6,7 @@
 
 .header {
 	opacity: 1;
-	background-image: url("background4.jpg");
+	background-image: url("background4(2).jpg");
 	background-color: white;
 	background-attachment: fixed;
 	background-position: bottom 500px;
@@ -75,7 +75,7 @@
 }
 
 .article figure img {
-	max-width: 100%;
+	max-width: 80%;
 }
 
 .article figure figcaption p {
