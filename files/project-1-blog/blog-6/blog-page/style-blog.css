@@ -1,8 +1,8 @@
 /**
- * Blog
- */
+* Blog
+*/
 
- /* Header Items */
+/* Header Items */
 
 .header {
 	opacity: 1;
@@ -14,9 +14,11 @@
 	background-size: cover;
 }
 
+
 .navbar-fixed {
 	position: static;
 }
+
 
 .header-items {
 	margin: 0 auto;
@@ -27,6 +29,7 @@
 	align-items: center;
 }
 
+
 .icons-wrap {
 	width: 50%;
 	display: flex;
@@ -34,6 +37,7 @@
 	margin: 25px;
 	margin-bottom: 40px;
 }
+
 
 /* Article Content */
 
@@ -43,12 +47,14 @@
 	width: 90%;
 }
 
+
 .date {
 	text-align: center;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	color: #b3b3b1 ;
 }
+
 
 .article-header h2 {
 	text-align: center;
@@ -58,13 +64,16 @@
 	padding-bottom: 10px;
 }
 
+
 .article-header figure {
 	position: relative;
 }
 
+
 .article-header figure img {
 	width: 100%;
 }
+
 
 .article {
 	margin: 0 auto;
@@ -74,18 +83,22 @@
 	border-bottom: 1px solid lightgray;
 }
 
+
 .article figure img {
 	max-width: 80%;
 }
+
 
 .article figure figcaption p {
 	font-size: medium;
 	margin-top: 5px;
 }
 
+
 .article p {
 	font-size: large;
 }
+
 
 /* Signature */
 
@@ -95,6 +108,8 @@
 	width: 15%;
 }
 
+
 .sig figure figcaption p{
   font-size: medium;
 }
+

@@ -1,16 +1,18 @@
 /**
- * Navigation Bar
- */
+* Navigation Bar
+*/
 
 nav .brand-logo {
   font-size: 1rem;
 }
+
 
 .brand-logo img {
   max-width: 32px;
   width: 14%;
   transform: scaleX(-1);
 }
+
 
 @media only screen and (min-width: 317px) {
   .brand-logo img {
@@ -20,6 +22,7 @@ nav .brand-logo {
   }
 }
 
+
 .navbar-fixed {
   width: 100%;
   line-height: 56px;
@@ -28,16 +31,19 @@ nav .brand-logo {
   padding-top: 10px;
 }
 
+
 nav ul {
   margin: 0;
 }
+
 
 nav ul li {
   -webkit-transition: color .3s;
   transition: color .3s;
   float: left;
-    list-style-type: none;
+  list-style-type: none;
 }
+
 
 nav ul a {
   -webkit-transition: color .3s;
@@ -47,6 +53,8 @@ nav ul a {
   cursor: pointer;
 }
 
+
 nav ul a:hover {
   color: rgb(147, 203, 255);
 }
+

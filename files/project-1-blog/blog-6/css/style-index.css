@@ -1,6 +1,6 @@
 /**
- * Background image
- */
+* Background image
+*/
 
 .background {
 	background-image: url('../images/background1.jpg');
@@ -8,6 +8,7 @@
 	background-position: center;
 	background-size: cover;
 }
+
 
 /**
 * Landing Frame
@@ -20,10 +21,12 @@
 	grid-template: repeat(5, 1fr) / 10% 80% 10%;
 }
 
+
 .text-wrapper {
 	grid-area: 2 / 2 / span 1 / span 1;
 	margin-top: 2rem;
 }
+
 
 .landing-grid section h1 {
 	font-size: 5rem;
@@ -31,20 +34,24 @@
 	margin-top: 0;
 }
 
+
 .landing-button {
 	grid-area: 3 / 2 / span 2 / span 1;
 	margin-top: 4rem;
 }
+
 
 @media only screen and (min-width: 601px) {
 	.landing-grid {
     grid-template: repeat(5, 1fr) / repeat(6, 1fr);
 	}
 
+
 	.landing-grid section h1 {
 		font-size: 4.2rem;
 		line-height: 110%;
 	}
+
 
 	.text-wrapper {
 		grid-area: 2 / 2 / span 2 / span 4;
@@ -54,6 +61,7 @@
 		align-items: center;
 		margin-top: 0;
 	}
+
 
 	.landing-button {
 		grid-area: 4 / 2 / span 2 / span 4;
@@ -76,10 +84,12 @@
 	background-color: rgb(213, 213, 213);
 }
 
+
 .blog-title {
 	grid-area: 1 / 2 / span 1 / span 1;
 	margin-top: 3rem;
 }
+
 
 @media only screen and (min-width: 601px) {
 	.blog-wrapper {
@@ -87,11 +97,13 @@
     grid-template: repeat(12, 1fr) / 1fr repeat(2, 3fr) 1fr 4fr 1fr;
 	}
 
+
 	.blog-title {
 		grid-area: 2 / 1 / span 1 / span 7;
 		margin: 0;
 	}
 }
+
 
 /* Blog Info */
 
@@ -100,9 +112,11 @@
 	margin: auto 0;
 }
 
+
 .blog-info p {
 	font-size: large;
 }
+
 
 @media only screen and (min-width: 601px) {
 	.blog-info {
@@ -111,15 +125,18 @@
 	}
 }
 
+
 /* Avatar */
 
 .avatar-img {
 	width: 60%;
 }
 
+
 img.responsive-img {
 	max-width: 60%;
 }
+
 
 @media only screen and (min-width: 601px) {
 	.row {
@@ -128,6 +145,7 @@ img.responsive-img {
     margin-bottom: 20px;
 	}
 }
+
 
 /**
 * Info Frame
@@ -142,6 +160,7 @@ img.responsive-img {
 	margin: 0;
 }
 
+
 .info-title {
 	grid-area: 1 / 2 / span 1 / span 1;
 	display: flex;
@@ -149,27 +168,33 @@ img.responsive-img {
 	align-items: center;
 }
 
+
 .info-subjects {
 	grid-area: 2 / 2 / span 1 / span 1;
 	margin-top: 2rem;
 }
 
+
 .info-subjects a {
 	transition: color .3s ease;
 }
 
+
 .info-subjects a:hover {
 	color: rgb(147, 203, 255);
 }
+
 
 @media only screen and (min-width: 601px) {
 	.info-wrapper {
     grid-template: repeat(6, 1fr) / repeat(6, 1fr);
 	}
 
+
 	.info-title {
 		grid-area: 1 / 1 / span 1 / span 6;
 	}
+
 
 	.info-subjects {
 		grid-area: 2 / 2 / span 3 / span 4;
